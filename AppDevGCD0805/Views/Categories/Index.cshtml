@@ -1,0 +1,32 @@
+﻿@model IEnumerable<AppDevGCD0805.Models.Category>
+
+<h1>Hello</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Description</th>
+      
+      
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in Model)
+    {
+      <tr>
+        <th scope="row">@item.Name</th>
+        <td>@item.Description</td>
+ 
+        
+        <td>
+          @Html.ActionLink("Delete", "Delete", "Categories", new { Id = item.Id }, new { @class = "btn btn-danger" })
+          @Html.ActionLink("Edit", "Edit", "Categories", new { id = item.Id }, new { @class = "btn btn-success" })
+          @* @Html.ActionLink("Details", "Details", "Todos", new { id = item.Id }, new { @class = "btn btn-info" }) *@
+        </td>
+      </tr>
+    }
+
+  </tbody>
+</table>

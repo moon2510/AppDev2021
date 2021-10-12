@@ -1,0 +1,10 @@
+﻿@model AppDevGCD0805.Models.Category
+
+
+
+<h1>Create</h1>
+<form asp-controller="Categories" asp-action="Create" method="post">
+  <input asp-for="Name">
+  <textarea asp-for="Description"></textarea>
+  <button type="submit">Create</button>
+</form>
