@@ -6141,19 +6141,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\nguye\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\AppDev\\Code AppDev\\AppDev2021\\AppDevGCD0805\\AppDevGCD0805.csproj",
+      "projectUniqueName": "D:\\Greenwich\\App Dev\\Assignment\\AppDev2021\\AppDevGCD0805\\AppDevGCD0805.csproj",
       "projectName": "AppDevGCD0805",
-      "projectPath": "E:\\AppDev\\Code AppDev\\AppDev2021\\AppDevGCD0805\\AppDevGCD0805.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "E:\\AppDev\\Code AppDev\\AppDev2021\\AppDevGCD0805\\obj\\",
+      "projectPath": "D:\\Greenwich\\App Dev\\Assignment\\AppDev2021\\AppDevGCD0805\\AppDevGCD0805.csproj",
+      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+      "outputPath": "D:\\Greenwich\\App Dev\\Assignment\\AppDev2021\\AppDevGCD0805\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6218,7 +6218,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
