@@ -3,10 +3,14 @@
 
 
 <h1>Edit</h1>
-<form asp-controller="Categories" asp-action="Edit" method="post">
-
-  <input asp-for="Name">
-  <textarea asp-for="Description"></textarea>
-  <button type="submit">Edit</button>
-
+<form asp-controller="Categories" asp-action="Create" method="post">
+    <div class="form-group">
+        <label>Name of category</label>
+        <input type="text" class="form-control" placeholder="Input name" asp-for="Name">
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <input type="text" class="form-control" placeholder="Description input" asp-for="Description">
+    </div>
+    <button type="submit" class="btn btn-outline-success">Create</button>
 </form>
